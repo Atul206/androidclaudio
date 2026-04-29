@@ -1,8 +1,8 @@
 # AndroClaudio
 
-![AndroidClaudio](./banner-file.svg) 
+![AndroidClaudio](./android_claudio_banner.png) 
 
-> Give Claude Code instant live knowledge of your running Android app — no source files read, no credentials exposed, zero production overhead.
+> Give Claude/Codex/Cursor Code instant live knowledge of your running Android app — no source files read, no credentials exposed, zero production overhead.
 
 Claude Code connects to an MCP server embedded in your debug APK. It discovers your app's classes and public functions, calls them live on the emulator, and verifies full feature flows using intelligent mock responses. When you're ready, flip individual groups to live mode for real API testing.
 
