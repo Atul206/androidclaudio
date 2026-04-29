@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android
+*.iml
+local.properties
+
+# Kotlin/Native
+.konan/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# IDE
+.idea/
+*.swp
+
+# AndroClaudio config (contains credentials)
+androplaudio.config.json

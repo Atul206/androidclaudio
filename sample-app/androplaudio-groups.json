@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "platform": "android",
+  "framework": "koin",
+  "groups": [
+    {
+      "id": "product.repository",
+      "layer": "shared",
+      "class": "com.androplaudio.sample.data.ProductRepository"
+    },
+    {
+      "id": "cart.manager",
+      "layer": "shared",
+      "class": "com.androplaudio.sample.domain.CartManager"
+    },
+    {
+      "id": "order.use.case",
+      "layer": "shared",
+      "class": "com.androplaudio.sample.domain.OrderUseCase"
+    },
+    {
+      "id": "main.viewmodel",
+      "layer": "ui",
+      "class": "com.androplaudio.sample.ui.MainViewModel"
+    }
+  ]
+}
